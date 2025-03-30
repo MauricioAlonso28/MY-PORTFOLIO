@@ -1,0 +1,9 @@
+import React from 'react'
+
+const StackSection = () => {
+  return (
+    <div>StackSection</div>
+  )
+}
+
+export default StackSection
