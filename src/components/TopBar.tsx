@@ -10,13 +10,13 @@ const TopBar = (props: Props) => {
   return (
     <nav
       className={
-        `w-full flex flex-row justify-between px-3 py-5 rounded-b-lg
-        border-b-1 border-x-1`
+        `sticky top-0 w-full flex flex-row justify-between px-3 py-5 rounded-b-lg border-b-1 border-x-1 shadow-md z-50 bg-[#18181b]`
       }
     >
       <div
         className={
-          `flex flex-row items-center gap-1`
+          `flex flex-row items-center gap-1 hover:text-amber-50 
+          cursor-context-menu transition duration-300`
         }
       >
         <h1
@@ -28,7 +28,7 @@ const TopBar = (props: Props) => {
         </h1>
         <h1
           className={
-            "text-[20px] text-[#72d7ff]"
+            "text-[20px]"
           }
         >
           Ayllón

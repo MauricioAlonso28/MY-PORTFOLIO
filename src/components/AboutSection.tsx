@@ -5,17 +5,17 @@ const AboutSection = () => {
     <div
       id='about'
       className={
-        `w-full px-4 py-25 flex flex-col items-center gap-8`
+        `w-full px-4 pb-15 flex flex-col items-center gap-8 py-10`
       }
     >
       <div
         className={
-          "w-4/5 flex items-center flex-col gap-2"
+          "w-6/7 flex items-center flex-col gap-2"
         }
       >
         <h2
           className={
-            "text-[24px]"
+            "text-[28px] cursor-context-menu transition duration-300 hover:text-amber-50"
           }
         >
           Software Developer
@@ -33,7 +33,7 @@ const AboutSection = () => {
       </div>
       <div
         className={
-          "flex flex-row justify-between w-4/5"
+          "flex flex-row justify-between w-6/7"
         }
       >
         <ul

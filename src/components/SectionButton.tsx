@@ -15,7 +15,8 @@ const SectionButton = (props: Props) => {
     <li
       className={
         `px-3 rounded-md transition-colors duration-300 cursor-pointer text-[16px]
-        ${props.isActive && "underline underline-offset-4 text-[#72d7ff] [text-shadow:_0_3px_7px_#72d7ff]"}`
+        ${props.isActive && "underline underline-offset-4 text-[#72d7ff] [text-shadow:_0_3px_7px_#72d7ff]"}
+        ${!props.isActive && "hover:text-amber-50"}`
       }
       onClick={() => handleClick()}
     >
