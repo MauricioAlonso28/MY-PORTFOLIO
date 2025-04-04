@@ -96,7 +96,7 @@ const CardExperience = (props: Props) => {
         {!props.isOpen && (
           <div
             className={
-              `absolute bottom-0 left-0 w-full h-30 bg-gradient-to-t from-[#183D5D] to-transparent`
+              `absolute bottom-0 left-0 w-full h-30 bg-gradient-to-t from-[#183D5D] to-transparent rounded-md`
             }
           />
         )}
