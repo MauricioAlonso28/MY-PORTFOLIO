@@ -49,7 +49,7 @@ const Landing = () => {
     >
       <div
         className={
-          "w-4/7 h-screen"
+          "w-5/7 h-screen xl:w-4/8"
         }
       >
         <TopBar
@@ -74,8 +74,8 @@ const Landing = () => {
         >
           <StackSection />
         </motion.div>
-        <ContactSection />
       </div>
+      {/* <ContactSection /> */}
     </div>
   )
 }

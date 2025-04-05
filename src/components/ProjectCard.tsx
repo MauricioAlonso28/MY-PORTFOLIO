@@ -12,7 +12,7 @@ const ProjectCard = (props: Props) => {
   return (
     <motion.div
       key={props.item.name}
-      className="w-[270px] xl:w-[310px] h-[540px] bg-[#183D5D] rounded-md border-[#ffffff] border-1"
+      className="w-[310px] xl:w-[310px] h-[540px] bg-[#183D5D] rounded-md border-[#ffffff] border-1"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
@@ -38,7 +38,7 @@ const ProjectCard = (props: Props) => {
         </h3>
       </div>
       <div
-        className='p-2 flex flex-col gap-2 rounded-b-md relative h-[270px] xl:h-[230px]'
+        className='p-2 flex flex-col gap-2 rounded-b-md relative h-[230px] xl:h-[230px]'
       >
         <p
           className="text-[14px] text-white"

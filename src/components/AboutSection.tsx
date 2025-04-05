@@ -10,7 +10,7 @@ const AboutSection = () => {
     >
       <div
         className={
-          "w-6/7 flex items-center flex-col gap-2"
+          "w-6/7 flex items-center flex-col gap-2 xl:w-4/7"
         }
       >
         <h2
@@ -33,7 +33,7 @@ const AboutSection = () => {
       </div>
       <div
         className={
-          "flex flex-row justify-between w-6/7"
+          "flex flex-row justify-between w-6/7 xl:w-4/7"
         }
       >
         <ul

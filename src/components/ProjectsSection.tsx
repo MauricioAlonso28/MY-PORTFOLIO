@@ -6,7 +6,7 @@ const ProjectsSection = () => {
     <div
       id='projects'
       className={
-        `flex flex-col items-center py-15`
+        `flex flex-col items-center pt-15`
       }
     >
       <h2
